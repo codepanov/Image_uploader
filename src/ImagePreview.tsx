@@ -1,28 +1,3 @@
-// interface ImagePreviewProps {
-//   selectedImage: File | null;
-// }
-
-// function ImagePreview({ selectedImage }: ImagePreviewProps) {
-//   console.log(selectedImage);
-
-//   return (
-//     <div>
-//       {selectedImage && (
-//         <div>
-//           <h2>Preview:</h2>
-//           <img
-//             style={{ width: '100%' }}
-//             src={URL.createObjectURL(selectedImage)}
-//             alt="Preview"
-//           />
-//         </div>
-//       )}
-//     </div>
-//   );
-// }
-
-// export default ImagePreview;
-
 import { useState, useEffect, ChangeEvent } from 'react';
 
 interface ImagePreviewProps {

@@ -1,7 +1,5 @@
 import './App.css';
 import { useState } from 'react';
-// import ImageUploader from './ImageUploader';
-// import ImageUploaderCompressor from './ImageUploaderCompressor';
 import ImageCompressAndUpload from './ImageCompressAndUpload';
 import ImagePreview from './ImagePreview';
 
@@ -20,8 +18,6 @@ function App() {
 
   return (
     <>
-      {/* <ImageUploader /> */}
-      {/* <ImageUploaderCompressor /> */}
       <ImageCompressAndUpload onImageSelect={handleImageSelect} />
       <ImagePreview selectedImage={selectedImage} onSave={handleUpdatedFile} />
     </>
